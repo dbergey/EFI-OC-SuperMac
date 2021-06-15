@@ -720,7 +720,7 @@
 			<key>LauncherOption</key>
 			<string>Full</string>
 			<key>PickerVariant</key>
-			<string>Modern</string>
+			<string>Acidanthera/GoldenGate</string>
 			<key>ConsoleAttributes</key>
 			<integer>0</integer>
 			<key>HibernateMode</key>
