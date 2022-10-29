@@ -3,53 +3,53 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>20G624</string>
+	<string>18G9323</string>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>FeatureUnlock</string>
+	<string>RadeonMonitor</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.khronokernel.FeatureUnlock</string>
+	<string>org.slice.RadeonMonitor</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
-	<key>CFBundleName</key>
-	<string>FeatureUnlock</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.9</string>
+	<string>1.3.5</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.0.9</string>
+	<string>1.3.5</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>13C100</string>
-	<key>DTPlatformName</key>
-	<string>macosx</string>
+	<string>11B53</string>
 	<key>DTPlatformVersion</key>
-	<string>12.1</string>
+	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>21C46</string>
+	<string>17C76</string>
 	<key>DTSDKName</key>
-	<string>macosx12.1</string>
+	<string>macosx10.13</string>
 	<key>DTXcode</key>
-	<string>1321</string>
+	<string>1120</string>
 	<key>DTXcodeBuild</key>
-	<string>13C100</string>
+	<string>11B53</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>FeatureUnlock</key>
+		<key>Radeon Cards Monitoring Plugin</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.khronokernel.FeatureUnlock</string>
+			<string>org.slice.RadeonMonitor</string>
 			<key>IOClass</key>
-			<string>FeatureUnlock</string>
+			<string>RadeonMonitor</string>
 			<key>IOMatchCategory</key>
-			<string>FeatureUnlock</string>
+			<string>RadeonMonitor</string>
+			<key>IOProbeScore</key>
+			<integer>500</integer>
 			<key>IOProviderClass</key>
 			<string>IOResources</string>
 			<key>IOResourceMatch</key>
@@ -57,27 +57,19 @@
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.14</string>
-	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2021 Khronokernel. All rights reserved.</string>
+	<string>10.6</string>
 	<key>OSBundleLibraries</key>
 	<dict>
-		<key>as.vit9696.Lilu</key>
-		<string>1.4.7</string>
-		<key>com.apple.kpi.bsd</key>
-		<string>12.0.0</string>
-		<key>com.apple.kpi.dsep</key>
-		<string>12.0.0</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>2.4</string>
 		<key>com.apple.kpi.iokit</key>
-		<string>12.0.0</string>
+		<string>9.0.0</string>
 		<key>com.apple.kpi.libkern</key>
-		<string>12.0.0</string>
-		<key>com.apple.kpi.mach</key>
-		<string>12.0.0</string>
+		<string>9.0.0</string>
 		<key>com.apple.kpi.unsupported</key>
-		<string>12.0.0</string>
+		<string>9.0.0</string>
+		<key>org.netkas.FakeSMC</key>
+		<string>3.3.0</string>
 	</dict>
-	<key>OSBundleRequired</key>
-	<string>Root</string>
 </dict>
 </plist>
